@@ -1,0 +1,6 @@
+*~
+*.lex.*
+*.tab.*
+*.o
+/parens
+/parens.output
