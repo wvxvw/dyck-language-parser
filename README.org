@@ -1,0 +1,18 @@
+* Info
+  This is a simple [[https://en.wikipedia.org/wiki/Dyck_language][Dyck language]] parser, it verifies that delimiters
+  are balanced in the given text file.  Specifically, it recognizes
+  these pairs of delimiters:
+  - =()=.
+  - =[]=.
+  - ={}=.
+  - =<>=.
+
+* Compiling
+  #+BEGIN_SRC sh
+    make clean && make
+  #+END_SRC
+
+* Using
+  #+BEGIN_SRC sh
+    parens ${file_to_check}
+  #+END_SRC
